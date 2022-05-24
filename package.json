@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "track your employees like the scum they are",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/swillswindle/employee-cli-sql-manager.git"
+  },
+  "keywords": [
+    "yo"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swillswindle/employee-cli-sql-manager/issues"
+  },
+  "homepage": "https://github.com/swillswindle/employee-cli-sql-manager#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
